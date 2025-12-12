@@ -3,7 +3,6 @@
 This project analyzes sales performance across regions, provinces, and product sub-categories using the **Superstore Sales Dataset**.  
 It showcases essential **Business Analyst** skills such as data cleaning, formatting, sorting, filtering, pivot analysis, and converting raw data into meaningful business insights.
 
----
 
 ## Project Objective
 
@@ -13,8 +12,6 @@ As a sales manager for a large Canadian retail chain, the goal is to understand:
 - Which categories are **loss-making**
 - Profit patterns across **regions and provinces**
 - Insights that will help improve business strategy or discontinue low-performing products
-
----
 
 ## Dataset
 
@@ -28,8 +25,6 @@ The dataset includes fields such as:
 - Sales, Profit, Quantity  
 - Customer Segment  
 
----
-
 ## Skills & Techniques Used (Excel)
 
 - Data Cleaning  
@@ -42,8 +37,6 @@ The dataset includes fields such as:
 - Identifying profit drivers & loss-making categories  
 
 These skills are foundational for **Business Analyst** roles.
-
----
 
 ## Activity 1: Data Preparation
 
@@ -60,8 +53,6 @@ These skills are foundational for **Business Analyst** roles.
   - Top 10% sales highlighted per province  
   - Profit heatmap (Green = high profit, Red = losses)  
 - Added double borders to separate regions  
-
----
 
 ## Activity 2: Pivot Table Insights
 
