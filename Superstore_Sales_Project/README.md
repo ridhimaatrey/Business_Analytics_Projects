@@ -1,11 +1,9 @@
 # Superstore Sales Analysis – Excel Project
-
 This project analyzes sales performance across regions, provinces, and product sub-categories using the **Superstore Sales Dataset**.  
 It showcases essential **Business Analyst** skills such as data cleaning, formatting, sorting, filtering, pivot analysis, and converting raw data into meaningful business insights.
 
 
 ## Project Objective
-
 As a sales manager for a large Canadian retail chain, the goal is to understand:
 
 - Which product sub-categories generate the **highest profits**
@@ -16,7 +14,6 @@ As a sales manager for a large Canadian retail chain, the goal is to understand:
 ## Dataset
 
 **File:** `superstore_sales project.xlsx`
-
 The dataset includes fields such as:
 
 - Region & Province  
@@ -26,7 +23,6 @@ The dataset includes fields such as:
 - Customer Segment  
 
 ## Skills & Techniques Used (Excel)
-
 - Data Cleaning  
 - Formatting & Readability Enhancement  
 - Filtering & Segment-wise Data Separation  
@@ -41,7 +37,6 @@ These skills are foundational for **Business Analyst** roles.
 ## Activity 1: Data Preparation
 
 ### Steps Completed
-
 - Adjusted column widths  
 - Styled the header row and added borders  
 - Separated data for each customer segment  
