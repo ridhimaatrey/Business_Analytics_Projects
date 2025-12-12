@@ -47,7 +47,7 @@ These skills are foundational for **Business Analyst** roles.
 
 ## Activity 1: Data Preparation
 
-### ✔ Steps Completed
+### Steps Completed
 
 - Adjusted column widths  
 - Styled the header row and added borders  
