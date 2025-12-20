@@ -1,75 +1,60 @@
-SQL IMDb Movie Analysis Project
+# IMDb Movie Data Analysis using SQL
 
-This project was completed as part of the **PwC India × upGrad – Business Analytics & Consulting Program**.
+This project demonstrates the use of **SQL for end-to-end business analysis** on a complex, multi-table IMDb dataset.  
+The focus is on uncovering meaningful insights related to movie performance, audience preferences, and industry trends.
 
-The objective was to analyse IMDb movie data using **pure SQL** and generate actionable insights to support strategic decision-making for a global movie release.
+All analysis was performed using **pure SQL**, without altering the dataset externally.
 
----
 
-## 📌 Business Context
-RSVP Movies, an Indian production house, planned to release a movie for a **global audience**.  
-To reduce risk and improve decision-making, historical IMDb movie data from the past three years was analysed.
+## Project Overview
 
-The entire analysis was performed using SQL queries without modifying the dataset externally.
+The IMDb dataset consists of multiple interrelated tables containing information about movies, ratings, genres, production houses, cast, and crew.
 
----
+The data was imported into MySQL, relationships were established between tables, and structured SQL queries were written to extract insights that are relevant from a business and decision-making perspective.
 
-## 🗂 Dataset & Structure
-The dataset consisted of multiple related tables covering:
-- Movies
-- Ratings
-- Genres
-- Production companies
-- Cast & crew
-- Release information
+## Key Areas of Analysis
 
-An ERD was used to understand table relationships before writing queries.
+The analysis focuses on:
 
----
+- Genre-wise movie performance and popularity trends  
+- Production houses associated with high-rated and highly voted movies  
+- Actor and actress performance based on average ratings  
+- Director-level analysis considering ratings, votes, and movie count  
+- Classification of movies based on audience ratings  
 
-## 🔍 Analysis Approach
-The SQL analysis was divided into **four segments**, each addressing a specific business objective:
 
-### **Segment 1**
-Basic exploration, movie counts, country-wise and year-wise trends.
+## Key Insights
 
-### **Segment 2**
-Genre performance, rating analysis, and identifying high-performing categories.
+Some of the important insights derived from the analysis include:
 
-### **Segment 3**
-Production houses, directors, and actors contributing to success.
+- **Drama** emerged as the most common movie genre across the dataset.  
+- **Marvel Studios** and **Warner Bros.** consistently appeared among top production houses with highly rated and popular movies.  
+- **Vijay Sethupathi** ranked among the top Indian actors based on average movie ratings.  
+- **Tabu** and **Taapsee Pannu** showed strong performance among Hindi actresses.  
+- **Thriller movies** were categorised into Superhit, Hit, One-Time Watch, and Flop based on rating thresholds.  
+- Director analysis highlighted patterns between movie count, average ratings, and audience engagement.
 
-### **Segment 4**
-Advanced insights combining ratings, votes, and profitability indicators.
+## Files Included
 
-All queries were optimised, readable, and written using appropriate joins and aliases.
+- `IMDB_project_final.sql`  
+  → Complete SQL script containing all queries with optimised joins and structured logic  
 
----
+- `IMDB_Project_Report.pdf`  
+  → Executive-style report summarising key findings and insights from the analysis  
 
-## 💡 Key Insights
-- Certain genres consistently performed better globally.
-- Specific production houses and directors were associated with higher ratings.
-- Audience preferences showed clear patterns across regions and years.
-- Data-driven selection of genre and talent can significantly improve success probability.
 
----
+## What This Project Reinforced
 
-## 📁 Files Included
-- `IMDB_project_final.sql` → Complete SQL solution script  
-- `SQL Problem Introduction.pdf` → Business problem and requirements  
+- SQL can independently handle complex analytical workflows  
+- Well-structured joins and aliases improve both performance and readability  
+- Business insights emerge when queries are driven by clear analytical questions  
+- Translating queries into insights is as important as writing the queries themselves  
 
----
 
-## 🧠 What This Project Reinforced
-- SQL can independently handle complex business analysis
-- Clean joins and structured queries improve insight clarity
-- Business questions should always drive technical analysis
+## Next Steps
 
----
-
-## 🚀 Next Steps
-Expanding analysis using:
-- Python for deeper EDA
-- Visualization for executive storytelling
-- Advanced SQL performance tuning
+Building on this analysis by:
+- Extending insights using Python for deeper exploratory analysis  
+- Creating visual dashboards for executive storytelling  
+- Applying similar SQL-driven analysis to SaaS and business datasets  
 
