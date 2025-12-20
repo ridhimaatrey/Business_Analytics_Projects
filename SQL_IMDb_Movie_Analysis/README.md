@@ -1,4 +1,4 @@
-# 🎬 SQL IMDb Movie Analysis Project
+SQL IMDb Movie Analysis Project
 
 This project was completed as part of the **PwC India × upGrad – Business Analytics & Consulting Program**.
 
